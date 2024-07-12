@@ -7,12 +7,16 @@ Attribute::Attribute()
 {
     Die die;
 
+    baseScore = 0;
+
     for (int i = 0; i < 3; i++)
     {
         die.roll();
-
         baseScore += die.getFaceValue();
+        cout << "Roll " << (i + 1) << " is " << die.getFaceValue() << endl;
     }
+    currentScore = baseScore;
+    cout << "Current score: " << currentScore << endl;
 }
 
 Attribute::Attribute(string Name)

@@ -29,3 +29,8 @@ int Die::getFaceValue()
 {
     return faceValue;
 }
+
+void Die::printDie() const
+{
+    cout << "A " << SIDES << " sided die showing a " << faceValue << endl;
+}

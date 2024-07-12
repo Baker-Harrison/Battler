@@ -15,6 +15,7 @@ class Die
     void roll();
     int getSides();
     int getFaceValue();
+    void printDie() const;
 };
 
 

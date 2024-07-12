@@ -23,6 +23,7 @@ public:
     void modifyScore(int mod);
     int getModifier();
     void resetCurrentScore();
+
 };
 
 #endif
