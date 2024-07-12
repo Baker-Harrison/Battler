@@ -3,10 +3,14 @@
 
 using namespace std;
 
-
 Die::Die() :
 
-SIDES(6)
+             SIDES(6)
+{
+    roll();
+}
+
+Die::Die(int sides) : SIDES(sides)
 {
     roll();
 }

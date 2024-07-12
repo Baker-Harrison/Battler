@@ -10,6 +10,7 @@ class Die
     public:
 
     Die();
+    Die(int sides);
 
     void roll();
     int getSides();
